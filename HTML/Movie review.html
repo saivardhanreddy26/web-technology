@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie review</title>
+</head>
+<style>
+     body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    background-color: aliceblue;
+}
+h2{
+    text-align: center;
+    background-color: antiquewhite;
+}
+</style>
+<body>
+    <h1>MOVIE REVIEW</h1>
+    <h2>Your review speaks about the movie in detail</h2>
+    <dl>Movie name: Kalki 2898 AD</dl>
+    <dl>Hero: Prabhas</dl>
+    <dl>villan: Kamal Haasan</dl>
+    <dl>director: Naga ashwin</dl>
+    <fieldset>
+        <legend>Feedback Details</legend>
+        <label for="rating">Overall Rating:</label>
+        <select id="rating" name="rating" required>
+            <option value="">-- Select Rating --</option>
+            <option value="1">1 - fabulous</option>
+            <option value="2">2 - Excellent</option>
+            <option value="3">3 - Good</option>
+            <option value="4">4 - Average</option>
+            <option value="5">5 - flop</option>
+        </select>
+        
+        <label for="feedback"><br>Your Feedback:</label><br>
+        <textarea id="feedback" name="feedback" rows="10" required></textarea>
+    </fieldset>
+</body>
+</html>

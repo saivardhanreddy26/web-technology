@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job seekers application form</title>
+    <style>
+        h1{
+            text-align: center;
+            background-color: rgb(157, 157, 21);
+            font-size: large;
+        }
+        form{
+            text-align: center;
+            background-color: rgb(26, 138, 138);
+            border: 1px solid ;
+            border-color: rgb(16, 17, 17);
+            height: 500px;
+            width: 300px;
+            
+        }
+    </style>
+</head>
+<body style="background-image: url(Default.jpg);">
+    <h1><b>Job seekers application form</b></h1>
+    <h3>Looking for a job? </h3>
+    <h3>Fill the below form with the required information</h3>
+    <form>
+        <label for="firstname">First name </label><br>
+        <input type="text" name="firstname" id="firstname"><br>
+        <label for="lastname">Lastname </label><br>
+        <input type="text" name="lastname" id="lastname"><br>
+        <label for="email">Email </label><br>
+        <input type="text" name="email" id="email"><br>
+        <label for="address">Address</label><br>
+        <input type="text" name="address" id="address"><br>
+        <label for="phone">Phone number</label><br>
+        <input type="text" id="phone" name="phone"><br>
+        <label for="alt">Alternate phone number</label>
+        <input type="text" name="alt" id="alt"><br>
+        <label for="position">Position that you are applying for</label>
+        <input type="text" id="position" name="position"><br>
+        <label for="type">Job Type</label><br>
+        <input type="text" id="type" name="type"><br>
+        <label for="resume">Resume/Cv link</label><br>
+        <input type="link" id="resume" name="resume"><br>
+        <label for="info">How did you hear about us?</label><br>
+        <input type="radio" id="info" name="info">Friends <br>
+        <input type="radio" id="info" name="info">online <br>
+        <input type="radio" id="info" name="info">recommendations <br>
+        <input type="radio" id="info" name="info">others <br>
+        <button type="button">SUBMIT APPLICATION</button>
+    </form>
+</body>
+</html>
